@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rufferdist.design</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans antialiased">
+    <custom-navbar></custom-navbar>
+
+    <!-- Hero Section -->
+    <section class="relative bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 text-gray-900">
+                        Desain Grafis Profesional untuk Bisnis Anda
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
+                        Memberikan solusi desain yang rapi, efektif, dan profesional untuk membantu UMKM Indonesia tampil lebih menawan.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#layanan" class="px-6 py-3 bg-gray-900 text-white rounded-md font-medium hover:bg-gray-800 transition duration-300 text-center">
+                            Lihat Layanan
+                        </a>
+                        <a href="#portfolio" class="px-6 py-3 border border-gray-300 text-gray-900 rounded-md font-medium hover:bg-gray-50 transition duration-300 text-center">
+                            Contoh Desain
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="http://static.photos/minimal/1024x576/5" alt="Desain Grafis Profesional" class="rounded-lg shadow-xl w-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layanan Section -->
+    <section id="layanan" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Layanan Kami</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Solusi desain lengkap untuk kebutuhan promosi bisnis Anda</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="image" class="text-gray-700"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Poster Digital</h3>
+                    <p class="text-gray-600">Desain poster profesional untuk promosi produk, acara, atau diskon khusus.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="instagram" class="text-gray-700"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Feed Instagram</h3>
+                    <p class="text-gray-600">Konten Instagram yang konsisten dan menarik untuk membangun brand awareness.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="type" class="text-gray-700"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Banner & Spanduk</h3>
+                    <p class="text-gray-600">Desain banner untuk website atau media cetak dengan tata letak yang rapi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Portfolio</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Beberapa contoh desain yang telah kami buat</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="overflow-hidden rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <img src="media\brosur.jpg" alt="Contoh Desain 1" class="w-full h-64 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="font-medium text-gray-900">Poster Promosi</h3>
+                        <p class="text-sm text-gray-600">Untuk usaha kuliner</p>
+                    </div>
+                </div>
+                
+                <div class="overflow-hidden rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <img src="media\poster.jpg" alt="Contoh Desain 2" class="w-full h-64 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="font-medium text-gray-900">Feed Instagram</h3>
+                        <p class="text-sm text-gray-600">Seri konten bulanan</p>
+                    </div>
+                </div>
+                
+                <div class="overflow-hidden rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <img src="media\banner.jpg" alt="Contoh Desain 3" class="w-full h-64 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="font-medium text-gray-900">Banner Website</h3>
+                        <p class="text-sm text-gray-600">Header untuk toko online</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-10">
+                <a href="#kontak" class="px-6 py-3 border border-gray-300 text-gray-900 rounded-md font-medium hover:bg-gray-50 transition duration-300 inline-block">
+                    Tanya Detail Portfolio
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proses Kerja Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Proses Pengerjaan</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Alur kerja yang sederhana dan transparan</p>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-white rounded-full shadow-sm flex items-center justify-center mx-auto mb-4">
+                        <span class="text-gray-900 font-bold text-xl">1</span>
+                    </div>
+                    <h3 class="font-medium text-gray-900 mb-2">Brief</h3>
+                    <p class="text-gray-600 text-sm">Diskusikan kebutuhan desain Anda</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-white rounded-full shadow-sm flex items-center justify-center mx-auto mb-4">
+                        <span class="text-gray-900 font-bold text-xl">2</span>
+                    </div>
+                    <h3 class="font-medium text-gray-900 mb-2">Desain</h3>
+                    <p class="text-gray-600 text-sm">Kami buat konsep sesuai brief</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-white rounded-full shadow-sm flex items-center justify-center mx-auto mb-4">
+                        <span class="text-gray-900 font-bold text-xl">3</span>
+                    </div>
+                    <h3 class="font-medium text-gray-900 mb-2">Revisi</h3>
+                    <p class="text-gray-600 text-sm">Sesuaikan hingga Anda puas</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-white rounded-full shadow-sm flex items-center justify-center mx-auto mb-4">
+                        <span class="text-gray-900 font-bold text-xl">4</span>
+                    </div>
+                    <h3 class="font-medium text-gray-900 mb-2">Selesai</h3>
+                    <p class="text-gray-600 text-sm">File dikirim dalam format yang dibutuhkan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Hubungi Kami</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Siap membantu kebutuhan desain Anda</p>
+            </div>
+            
+            <div class="max-w-2xl mx-auto bg-gray-50 rounded-lg p-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <a href="https://wa.me/6281234567890" class="bg-green-100 hover:bg-green-200 transition duration-300 rounded-lg p-4 flex items-center">
+                        <div class="bg-green-500 text-white p-3 rounded-full mr-4">
+                            <i data-feather="message-circle"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-900">WhatsApp</h3>
+                            <p class="text-sm text-gray-600">+62 896-7766-3436</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://instagram.com/rufferdist" class="bg-purple-100 hover:bg-purple-200 transition duration-300 rounded-lg p-4 flex items-center">
+                        <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-3 rounded-full mr-4">
+                            <i data-feather="instagram"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-900">Instagram</h3>
+                            <p class="text-sm text-gray-600">@rufferdist</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="mt-8">
+                    <p class="text-center text-gray-600">
+                        Atau email kami di <a href="mailto:Reandrocompany@gmail.com" class="text-gray-900 underline">Reandrocompany@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+              <!--footer -->
+    <footerclass="border-t border-zinc-800 py-6 text-center text-sm text-zinc-500">
+                © 2026 Rufferdist. All rights reserved.
+  </footer>
+</body>
+</html>
